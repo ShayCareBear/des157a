@@ -1,0 +1,54 @@
+/* <!-- MOBILE --> */
+.pokeballs{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+.pokeballimg{
+    width: 20%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+header,footer{
+    max-width: 1020px;
+    margin: auto;
+}
+
+header{
+    background-image: url("images/mobliebanner.png");
+    background-repeat: no-repeat;
+}
+header h1{
+    font-family: 'Shantell Sans', cursive;
+font-family: 'Tilt Prism', sans-serif;
+    text-align: center;
+}
+header h2{
+    margin: 0%;
+    font-size: small;
+    padding-bottom: 2%;
+}
+.left{
+    padding-top: 2%;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    text-align: center; 
+}
+ul{
+    list-style-type: none;
+    padding: 0%;
+    
+}
+ul li a{
+    text-decoration: none;
+}
+body{
+    background-color: #BCC7B5;
+}
