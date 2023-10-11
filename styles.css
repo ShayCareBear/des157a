@@ -142,6 +142,8 @@ body{
     background-image: url(images/backsidecard.png);
     aspect-ratio: 2 / 3;
     background-repeat: no-repeat;
+    
+    
  }
  .front {
 	transform: rotateY(-180deg);	
@@ -198,10 +200,11 @@ body{
 header{
     background-image: none;
     background: #9DBAAC;
-  max-width:none;
+ 
   padding-top: 1%;
   border: 2px solid rgb(145, 72, 167);
   border-radius: 25px;
+  margin-bottom: 2%;
 }
 header h1{
     font-size: 3em;
