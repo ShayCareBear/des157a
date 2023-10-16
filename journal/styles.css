@@ -1,0 +1,60 @@
+header,footer{
+    max-width: 1020px;
+   
+}
+header{
+    text-align: center; 
+    margin: auto;
+    margin-top: 2%;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.8em;
+}
+
+body{
+    margin: auto;
+    background: url(images/doodlebackground.PNG);
+   
+}
+
+main{
+    margin: auto;
+    text-align: center; 
+    max-width: 800px;
+    margin-top: 5%;
+}
+
+.titleNtime{
+   display: flex;
+   
+}
+time{
+    height: 30px;
+}
+main h2{
+    text-align: center;
+    padding-left: 15%;
+}
+article{
+    padding: 3%;
+    margin: auto;
+}
+
+article p {
+    line-height: 1.43em;
+    font-size: 1.1em;
+    text-align: left;
+}
+
+.post {
+    background-color: #F2EAC7;
+    margin-bottom: 2%;
+   box-shadow: -12px 10px 8px 2px rgba(153,128,68,0.44);
+   position: relative;
+}
+
+
+.tapehold img {
+   width: 150px;
+   height: 100px;
+  position: relative;
+}
