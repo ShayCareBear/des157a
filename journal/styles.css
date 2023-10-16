@@ -8,11 +8,12 @@ header{
     margin-top: 2%;
     font-family: 'Permanent Marker', cursive;
     font-size: 1.8em;
+    text-shadow: rgba(255,102,0,0.84) 0px 0px 13px;
 }
 
 body{
     margin: auto;
-    background: url(images/doodlebackground.PNG);
+    background: url(images/doodlebackground2.png);
    
 }
 
