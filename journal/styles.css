@@ -50,12 +50,22 @@ article p {
     background-color: #F2EAC7;
     margin-bottom: 2%;
    box-shadow: -12px 10px 8px 2px rgba(153,128,68,0.44);
-   position: relative;
+  
+}
+
+main{
+    position: relative;
+}
+.tapehold{
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 
 .tapehold img {
    width: 150px;
-   height: 100px;
-  position: relative;
+   height: 90px;
+  
 }
