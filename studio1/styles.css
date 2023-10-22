@@ -1,0 +1,112 @@
+
+
+html {
+    scroll-behavior: smooth;
+    background-size: cover;
+}
+
+h1,h2,h3,p,ul {
+    margin: 0;
+    padding: 0;
+    font-family: 'Permanent Marker', cursive;
+}
+
+header{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-color: #696866;
+}
+
+
+.folder{
+    display: flex;
+  
+}
+
+.divallwords{
+    position: relative;
+}
+.imageside{
+    margin-left: 25%;
+}
+.divbutton{
+text-align: center;
+position: relative;
+}
+.input{
+padding-bottom: 4px;
+font-family: 'Nunito Sans', sans-serif;
+margin-top: 1%;
+}
+
+button{
+    position: relative;
+    margin-top: 10%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+   padding-left: 8%;
+   padding-right: 8%;
+   background-color: #d980a1;
+   border-color: #932C51;
+   border-radius: 25% 10%;
+}
+.folder{
+    background-color: #FFF3E1;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+header h1 {
+    color: #932C51;
+    letter-spacing: 1px;
+    font-size: 2.5em;
+}
+
+#overlay{
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    transition-property: opacity, visibility;
+   transition-duration: 1s;
+   transition-timing-function: ease;
+}
+
+#overlay article {
+    box-sizing: border-box;
+    background-color: #f3f6aa;
+    padding: 20px;
+    width: 50vw;
+    height: 50vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#overlay article p{
+    text-align: center;
+    margin-top: 3%;
+    line-height: 2em;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.1em;
+}
+#overlay article h2{
+    text-align: center;
+   margin-bottom: 1%;
+   padding-top: 1%;
+}
+.overlaybutton{
+
+    width: 200px;
+}
