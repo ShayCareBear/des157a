@@ -18,12 +18,17 @@ header{
 }
 
 main{
-    display: flex;
-    justify-content: center;
+   max-width: 50%;
+   margin-left: auto;
+   margin-right: auto;
+   z-index: auto;
+   position: relative;
+   
 }
 body{
     background-color: #696866;
 }
+
 
 
 .folder{
@@ -31,8 +36,8 @@ body{
   
 }
 
-.divallwords{
-    position: relative;
+label , input{
+   display: block;
 }
 .imageside{
     margin-left: 25%;
@@ -41,10 +46,12 @@ body{
 text-align: center;
 position: relative;
 }
-.input{
-padding-bottom: 4px;
+
+input{
 font-family: 'Nunito Sans', sans-serif;
-margin-top: 1%;
+margin: 0 0 7px 0 ;
+padding: 5px;
+
 }
 
 button{
@@ -64,6 +71,9 @@ button{
     padding-right: 7%;
     padding-top: 2%;
     padding-bottom: 2%;
+
+    border-radius: 0 10px 10px 10px;
+  
 }
 header h1 {
     color: #932C51;
@@ -109,4 +119,24 @@ header h1 {
 .overlaybutton{
 
     width: 200px;
+}
+
+.box{
+    width: 150px;
+    height:60px;
+    background-color: #FFF3E1;
+    border-radius: 15px;
+    position: absolute;
+   top: -40px;
+    z-index: -1;
+}
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.showing {
+    visibility: visible;
+    opacity: 1;
 }
