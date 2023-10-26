@@ -97,7 +97,7 @@ header h1 {
     box-sizing: border-box;
     background-color: #f3f6aa;
     padding: 20px;
-    width: 50vw;
+    width: 60vw;
     height: 50vh;
     position: absolute;
     top: 50%;
@@ -109,7 +109,7 @@ header h1 {
     margin-top: 3%;
     line-height: 2em;
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 #overlay article h2{
     text-align: center;
