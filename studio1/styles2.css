@@ -21,8 +21,6 @@ h1,h2,h3,p,ul {
     font-family: 'Permanent Marker', cursive;
 }
 
-
-
 .imageside img {
     width: 50%;
     display: block;
@@ -36,7 +34,6 @@ label , input{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-
     margin-top: 1.5%;
     
  }
@@ -76,7 +73,14 @@ body{
     font-size: 1em;
 }
 .folder{
-    background-color: #FFF3E1;}
+    background-color: #FFF3E1;
+}
+
+footer{
+        text-align: center;
+        margin-top: 2%;
+        color:azure;
+}
 
  /* <!-- DESKTOP --> */
 
