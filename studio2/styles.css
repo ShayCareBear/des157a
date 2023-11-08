@@ -1,4 +1,22 @@
 /* <!-- MOBILE --> */
+html {
+    scroll-behavior: smooth;
+    background-size: cover;
+}
+
+h1,h2,h3,p,ul {
+    margin: 0;
+    padding: 0;
+ 
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+
 
 :root {
     --sliderwidth: 0;
@@ -44,15 +62,60 @@ background: linear-gradient(180deg, rgba(224,255,223,1) 0%, rgba(220,230,255,1) 
 }
 
 
-#journals img {
-    padding-left: 2%;
-    padding-right: 2%;
+
+#journals{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    align-items: flex-start;
 }
 
 h1, h2{
     font-family: 'Nunito Sans', sans-serif;
     font-family: 'Pacifico', cursive;
 }
+
+/* .overlayJ{
+    max-width: 60vw;
+    max-height: 60vh;
+    position: absolute;
+ 
+
+} */
+ .overlay{
+    position: fixed;
+    left: 0;
+    top: 0;
+   width: 100%;
+   height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+
+ }
+ .overlay article{
+   max-height: 90vh;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+ }
+ .overlay article img {
+    height: 90vh;
+    width: auto;
+ }
+ .textoverlay{
+    width: 600px;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0,0,0,0.5);
+ }
+ .textoverlay p {
+    color: aliceblue;
+    padding: 50px;
+ }
+
+ 
 
 
 /* <!-- DESKTOP --> */
