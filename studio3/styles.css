@@ -3,26 +3,110 @@ h2, p{
     margin: 0;
     padding: 0;
 }
-img{
-    display: inline-block;
-    max-width: 5%;
-    margin-right: 2%;
-    margin-left: 2%;
-}
-#gamecontrol img{
-    max-width: 5%;
-    margin-left: 6%;
-    margin-right: 6%;
-}
 h1{
     text-align: center;
     font-family: 'Peralta', serif;
     color: #FF62AD;
     font-size: 2.7em;
 }
+img{
+    display: inline-block;
+    max-width: 5%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
 body{
     background: rgb(198,162,232);
     background: linear-gradient(0deg, rgba(198,162,232,1) 20%, rgba(179,182,210,1) 91%);
+}
+footer{
+    text-align: center;
+    margin-top: 3%;
+    color:#ed00d5;
+}
+footer a {
+    color:#ed00d5;
+}
+/* <!-- icons settings --> */
+#ocsheet img{
+    max-width: 7%;
+}
+#ocsheet{
+    margin-top: 2%;
+    text-align: center;
+}
+#spirtes{
+display: flex;
+justify-content: center ;
+padding-top: 5%;
+}
+#spirtes p{
+    font-family: 'Peralta', serif;
+    color: #FF62AD;
+    font-size: 2.0em;
+}
+#player2{
+    max-width: 10%;
+   
+}
+#player1{
+    max-width: 10%;
+}
+
+/* <!-- score settings --> */
+#score p, h2{
+    color: #780e6d;
+    text-align: center;
+  
+}
+#score p{
+    font-size: 1.5em;
+}
+/* <!-- game control settings --> */
+#gamecontrol img{
+    max-width: 5%;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+#gamecontrol h2{
+    color: #780e6d;
+    text-align: center;
+    padding-bottom: 1%;
+}
+#gamecontrol{
+    padding: 3%;
+    background:#F98CEE;
+    box-shadow: -6px 56px 112px -41px rgba(242,47,175,0.75) inset;
+    text-align: center;
+}
+
+/* <!-- game settings --> */
+#game p {
+    color: #780e6d;
+    font-size: 1.5em;
+    margin-bottom: 2%;
+}
+#game{
+    padding: 6%;
+    background:#FACDFE;
+    box-shadow: -4px -4px 37px 3px rgba(255,62,247,0.28) inset;
+    text-align: center;
+}
+
+#game img {
+    max-width: 8%;
+    justify-content: center;
+}
+
+#actions{
+padding: 5%;
+background:#F98CEE;
+box-shadow: 11px -45px 112px -41px rgba(242,47,175,0.75) inset;
+text-align: center;
+}
+#actions button {
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 
@@ -43,45 +127,26 @@ button{
 }
 
 
-#gamecontrol{
-    padding: 3%;
-    background:#F98CEE;
-    box-shadow: -6px 56px 112px -41px rgba(242,47,175,0.75) inset;
-    text-align: center;
-}
 
-#game{
- padding: 6%;
- background:#FACDFE;
- box-shadow: -4px -4px 37px 3px rgba(255,62,247,0.28) inset;
-}
+
+
+
 
 #pinkbox{
-margin-top: 5%;
-margin-left: 7%;
-margin-right: 7%;
-border: 16px ridge #ffcde8; 
+    margin-left: 7%;
+    margin-right: 7%;
+    border: 16px ridge #ffcde8; 
 }
 
-#actions{
-padding: 5%;
-background:#F98CEE;
-box-shadow: 11px -45px 112px -41px rgba(242,47,175,0.75) inset;
-}
+
 
 #score{
-background: #FFFDC7;
-padding: 2%;
-margin-top: 2%;
-margin-left: 9%;
-margin-right: 9%;
-box-shadow: -3px -104px 37px -77px rgba(198,162,232,0.28) inset;
-}
-footer{
-    text-align: center;
-    margin-top: 3%;
-    color:#ed00d5;
-}
-footer a {
-    color:#ed00d5;
+    position: fixed;
+    bottom: 0;
+    background: #FFFDC7;
+    padding: 2%;
+    margin-top: 2%;
+    margin-left: 9%;
+    margin-right: 9%;
+    box-shadow: -3px -104px 37px -77px rgba(198,162,232,0.28) inset;
 }

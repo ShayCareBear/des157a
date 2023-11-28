@@ -1,0 +1,43 @@
+body {
+    
+    background-image: url(images/bannercopy.png);
+    background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+    background-size: contain;
+    padding-top: 33.6%;
+    background-color: #dae5f4;
+
+}
+img{
+    max-width: 50%;
+    
+}
+h1,  h2{
+    text-align: center;
+}
+section {
+	background: #dae5f4;
+	padding-top: 20px;
+
+
+}
+article #ex{
+    text-align: center;
+}
+
+article {
+	margin: auto;
+	width: 75%;
+	font-family: Arial;
+	font-size: 24px;
+	color: #27274f;
+}
+
+article p {
+	margin-top: 3%;
+    margin-bottom: 3%;
+}
+footer{
+    text-align: center;
+}
