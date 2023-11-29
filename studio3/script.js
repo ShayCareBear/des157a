@@ -15,10 +15,10 @@
         dice: ['images/1die.PNG', 'images/2die.PNG', 'images/3die.PNG', 'images/4die.PNG', 'images/5die.PNG', 'images/6die.PNG'],
         players: ['player 1', 'player 2'],
 
-        BlueBerry:"images/icon1_done.PNG",
-        RedVine:"images/icon2_done.PNG",
-        CornyCandy:"images/icon3_done.PNG",
-        SweetPixy:"images/icon4_done.PNG",
+        BlueBerry:"images/icon1_done.webp",
+        RedVine:"images/icon2_done.webp",
+        CornyCandy:"images/icon3_done.webp",
+        SweetPixy:"images/icon4_done.webp",
 
         score: [0, 0],
         roll1: 0,
