@@ -1,6 +1,6 @@
 body {
     
-    background-image: url(images/bannercopy.png);
+    background-image: url(images/bannercopyedit.webp);
     background-repeat: no-repeat;
 	background-position: center top;
 	background-attachment: fixed;
@@ -37,6 +37,10 @@ article {
 article p {
 	margin-top: 3%;
     margin-bottom: 3%;
+}
+figcaption{
+    text-align: center;
+    font-size: 0.5em;
 }
 footer{
     text-align: center;

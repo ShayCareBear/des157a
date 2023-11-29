@@ -1,5 +1,6 @@
 (function(){
     'use strict'
+
     console.log('reading JS');
 
     const startGame = document.querySelector('#startgame');
@@ -11,7 +12,7 @@
     let counter = 0;
 
     const gameData = {
-        dice: ['images/1die.png', 'images/2die.png', 'images/3die.png', 'images/4die.png', 'images/5die.png', 'images/6die.png'],
+        dice: ['images/1die.PNG', 'images/2die.PNG', 'images/3die.PNG', 'images/4die.PNG', 'images/5die.PNG', 'images/6die.PNG'],
         players: ['player 1', 'player 2'],
 
         BlueBerry:"images/icon1_done.PNG",
@@ -128,5 +129,16 @@ function checkWinningCondition(){
  function showCurrentScore (){
     score.innerHTML = `<p>The score for ${gameData.players[0]} is ${gameData.score[0]} and the score for ${gameData.players[1]} is ${gameData.score[1]} </p>`;
  }
+
+ const slapBtns = document.querySelectorAll('.slap');
+ const slapSound = new Audio('sounds/slap.mp3');
+
+ slapBtns.forEach(function(eachbtn){
+eachbtn.addEventListener('click', function () {
+    slapSound.play();
+});
+
+ });
+
 
 })();
