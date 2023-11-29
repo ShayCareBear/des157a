@@ -1,7 +1,7 @@
 (function(){
     'use strict'
 
-    console.log('reading JS');
+    
 
     const startGame = document.querySelector('#startgame');
     const gameControl = document.querySelector('#gamecontrol');
@@ -45,7 +45,7 @@
                 document.querySelector('#player2name').innerHTML=thisicon;
                 counter--;
             }
-            //console.log(gameData);
+           
 
         });
     });
@@ -56,7 +56,7 @@ startGame.addEventListener('click',function(){
     console.log(gameData.index);
 
     gameControl.innerHTML = '<h2>The game has started!</h2>';
-    gameControl.innerHTML += '<button id="quit">wanna quit?</button>';
+    gameControl.innerHTML += '<button id="quit" class="slap">wanna quit?</button>';
     document.getElementById('quit').addEventListener('click',function(){
         location.reload();
     });
@@ -65,7 +65,7 @@ startGame.addEventListener('click',function(){
 
 function setUpTurn(){
 game.innerHTML = `<p>roll the dice for ${gameData.players[gameData.index]} </p>`;
-actionArea.innerHTML = `<button id= "roll">roll!</button>`;
+actionArea.innerHTML = `<button id= "roll" class="punch">roll!</button>`;
 document.getElementById('roll').addEventListener('click', function(){
     
     throwDice();
@@ -81,7 +81,7 @@ function throwDice(){
     gameData.rollSum = gameData.roll1 + gameData.roll2;
 
     if(gameData.rollSum === 2){
-        //console.log("snake eyes hiss!");
+       
         game.innerHTML += '<p> Snake Eyes! </p>';
         gameData.score[gameData.index] = 0;
         gameData.index ? (gameData.index = 0) : (gameData.index = 1);
@@ -89,16 +89,16 @@ function throwDice(){
         setTimeout(setUpTurn, 2000);
 
     } else if (gameData.roll1 === 1 || gameData.roll2 === 1){
-    //console.log("a one was rolled!");
+ ;
         gameData.index ? (gameData.index = 0) : (gameData.index = 1);
 
     game.innerHTML += `<p> A 1 was rolled switch to ${gameData.players[gameData.index]}</p>`
     setTimeout(setUpTurn, 2000);
 
     } else {
-        //console.log("the game must go on");
+        
         gameData.score[gameData.index] = gameData.score[gameData.index] + gameData.rollSum;
-        actionArea.innerHTML = '<button id ="rollagain"> roll!</button>  <button id= "pass">pass! </button>';
+        actionArea.innerHTML = '<button id ="rollagain"  class="punch" > roll!</button>  <button id= "pass"  class="punch" >pass! </button>';
 
         document.getElementById('rollagain').addEventListener('click',function(){
             setUpTurn();
@@ -140,5 +140,13 @@ eachbtn.addEventListener('click', function () {
 
  });
 
+ const punchBtns = document.querySelectorAll('.punch');
+ const punchSound = new Audio('sounds/PUNCH.mp3');
+
+ punchBtns.forEach(function(eachbtn){
+    eachbtn.addEventListener('click', function () {
+        punchSound.play();
+    });
+});
 
 })();

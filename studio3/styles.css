@@ -47,12 +47,10 @@ padding-top: 5%;
 }
 #player2{
     max-width: 10%;
-   
 }
 #player1{
     max-width: 10%;
 }
-
 /* <!-- score settings --> */
 #score p, h2{
     color: #780e6d;
@@ -61,6 +59,17 @@ padding-top: 5%;
 }
 #score p{
     font-size: 1.5em;
+}
+#score{
+    position: fixed;
+    bottom: 0;
+    left:60%;
+    background: #FFFDC7;
+    padding: 2%;
+    margin-top: 2%;
+    margin-left: 9%;
+    margin-right: 9%;
+    box-shadow: -3px -104px 37px -77px rgba(198,162,232,0.28) inset;
 }
 /* <!-- game control settings --> */
 #gamecontrol img{
@@ -79,7 +88,6 @@ padding-top: 5%;
     box-shadow: -6px 56px 112px -41px rgba(242,47,175,0.75) inset;
     text-align: center;
 }
-
 /* <!-- game settings --> */
 #game p {
     color: #780e6d;
@@ -92,12 +100,10 @@ padding-top: 5%;
     box-shadow: -4px -4px 37px 3px rgba(255,62,247,0.28) inset;
     text-align: center;
 }
-
 #game img {
     max-width: 8%;
     justify-content: center;
 }
-
 #actions{
 padding: 5%;
 background:#F98CEE;
@@ -108,7 +114,6 @@ text-align: center;
   margin-left: 2%;
   margin-right: 2%;
 }
-
 
 button{
     box-shadow: 0px 5px 0px 0px #fa149e;
@@ -126,27 +131,8 @@ button{
 	text-shadow:0px 1px 0px #faed96;
 }
 
-
-
-
-
-
-
 #pinkbox{
     margin-left: 7%;
     margin-right: 7%;
     border: 16px ridge #ffcde8; 
-}
-
-
-
-#score{
-    position: fixed;
-    bottom: 0;
-    background: #FFFDC7;
-    padding: 2%;
-    margin-top: 2%;
-    margin-left: 9%;
-    margin-right: 9%;
-    box-shadow: -3px -104px 37px -77px rgba(198,162,232,0.28) inset;
 }
