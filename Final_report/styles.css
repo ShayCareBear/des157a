@@ -1,0 +1,69 @@
+header,footer{
+    max-width: 1020px;
+   
+}
+
+
+body{
+    margin: auto;
+    background: url(images/doodlebackground2.png);
+   
+}
+
+main{
+    margin: auto;
+    text-align: center; 
+    max-width: 800px;
+    margin-top: 5%;
+}
+
+.titleNtime{
+   display: flex;
+   
+}
+time{
+    height: 30px;
+}
+main h2{
+    text-align: center;
+    padding-left: 15%;
+}
+article{
+    padding: 3%;
+    margin: auto;
+}
+
+article p {
+    line-height: 1.43em;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+.post {
+    background-color: #F2EAC7;
+    margin-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+   box-shadow: -12px 10px 8px 2px rgba(153,128,68,0.44);
+  
+}
+
+main{
+    position: relative;
+}
+.tapehold{
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+img{
+    max-width: 70%;
+}
+
+.tapehold img {
+   width: 150px;
+   height: 90px;
+  
+}
