@@ -4,8 +4,7 @@ html {
     background-size: cover;
 }
 
-
-h1, h2{
+h1, h2 ,h3{
     font-family: 'Nunito Sans', sans-serif;
     font-family: 'Pacifico', cursive;
 }
@@ -17,16 +16,31 @@ body{
 }
 
 #last{
-    margin-top: 40%;
+    margin-top: 5%;
 }
 
 #lastp{
     font-size: 2em;
-    margin-right: 1%;
-    margin-left: 2%;
+    margin-right: 10%;
+    margin-left: 10%;
     background-color: #f0b0fd;
     padding: 1%;
 }
+
+#extra{
+    margin-top: 30%;
+}
+#extra img {
+    max-width: 20%;
+    transform: rotate(5deg);
+}
+#corner{
+    max-width: 10%;
+    position: fixed;
+    bottom: 0;
+    left: 20px;
+}
+
 
 /* <!-- slider css --> */
 
