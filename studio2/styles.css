@@ -69,9 +69,8 @@ p{
 
 #slider {
     display: flex;
-     position: absolute; 
+    position: absolute; 
     left: 0;
-   
     height: 200px;
     transition: all 60s linear;
 }
