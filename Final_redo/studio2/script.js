@@ -1,5 +1,5 @@
 (function(){
-
+// slider
     window.addEventListener('load', function () {
         'use strict';
         const sliderContent = document.querySelector('.a');
@@ -24,7 +24,7 @@
         document.querySelector('#slider').classList.add("animate");
     });
 
-
+// overlay pull up 
 
     const trig =  document.querySelectorAll('#journals a');
 
@@ -40,6 +40,7 @@
         console.log(this.getAttribute('id'));
     };
 
+    // overlay escape
 
     document.addEventListener('keydown', function (event) {
         if (event.key === 'Escape') {
@@ -55,7 +56,7 @@
             });
         }
     
-
+// noises 
         const paperBtns = document.querySelectorAll('.paper');
         const paperSound = new Audio('sounds/paper.mp3');
        
@@ -65,8 +66,6 @@
         console.log(paperSound.play)
        });
     });
-
-
  
 
 })();
